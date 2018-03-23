@@ -161,7 +161,7 @@ namespace EmguWFTest
 
                 capture.ImageGrabbed += Capture_ImageGrabbed;                
                 capture.Start();
-                VideoState = VideoState.Running;
+                VideoState = VideoState.Running; 
             }
 
             if (imgOriginal == null)
